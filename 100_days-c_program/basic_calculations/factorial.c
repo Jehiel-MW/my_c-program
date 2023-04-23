@@ -4,6 +4,7 @@
  * this program is for factorial calculation
  * the factorial formula is given by n!
  * the program will be able to solve any factorial input
+ * this code will take an input from the user and return with the factorial result
  */
 
 int main(){

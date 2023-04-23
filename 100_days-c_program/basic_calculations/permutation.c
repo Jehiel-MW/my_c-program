@@ -3,6 +3,7 @@
  * the program here is about permutation
  * permutation formula is given as nPr = n! / (n-r)!
  * this will help us solve any permutation question
+ * a trial code is included below
  */
  
  
@@ -22,6 +23,7 @@ int permutate(int num1, int num2)
 }
 
 
+//this is the trial code for this function
 int main(){
 	int num1 = 5;
 	int num2 = 2;

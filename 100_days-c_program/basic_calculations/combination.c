@@ -3,6 +3,7 @@
 /**
  * this program will solve mathematical problem involving combination
  * combination formula is given as nCr = n! / r! * (n - r)!
+ * a trial code is included below
  * Return value is int
  */
 
@@ -35,10 +36,11 @@
      //for the final formula n! / r! * (n-r)!
      int combine = product1 / (product2 * product3);
      //denominate;
-     printf("Combination result: %2d", combine);
+     printf("Combination result: %d", combine);
      return combine;
  }
 
+//This is the test code for the function
  int main(){
 	int num1 = 5;
 	int num2 = 1;
